@@ -1,0 +1,16 @@
+Kubernetes classes explained concepts on particular
+date
+18/10/2021 Kubernetes class started explained K8 
+           objects pod,service object imp need some stress to understand 
+
+
+22/10/2021 1.explained service object.service object is for creating port mapping and networking load balancing
+           2.Pod's failure scenerio
+
+20/10/2021 pycharm software installation and its uses 
+           from jetbrains--community version
+           for kubernetes related files pugin must be downloaded and installed
+           type in google.com as kubernetes and openshift resource support check in same
+           pluggins.jetbrains.com
+
+21/10/2021 kompose file uses and restrictions

@@ -1,0 +1,12 @@
+Pod is the abstraction layer on top of container i.e
+the containers are encapsulated into a kubernetes object
+called pod
+
+Serivce object this is used for port mapping and network load balancing
+service objects can be classified into 1.cluster IP 2.Node port 3.load balancer 
+important topic make an effort to understand concept briefly
+
+NameSpace is used for creating a partition in cluster.By using namespace pods in one environment(i.e namespace environment)
+cannot communicate with the pods which are in different namespace		
+
+Depolyment object is mostly widely used object
