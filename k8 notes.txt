@@ -10,3 +10,21 @@ NameSpace is used for creating a partition in cluster.By using namespace pods in
 cannot communicate with the pods which are in different namespace		
 
 Depolyment object is mostly widely used object
+
+
+What does the READY column in the output of the kubectl get pods command indicate?
+Ans:Running containers in a pod/Total containers in a pod
+
+kubectl describe pod <pod-name>
+
+
+A Note on Editing Existing Pods
+In any of the practical quizzes if you are asked to edit an existing POD, please note the following:
+
+If you are given a pod definition file, edit that file and use it to create a new pod.
+If you are not given a pod definition file, you may extract the definition to a file using the below command:
+kubectl get pod <pod-name> -o yaml > pod-definition.yaml
+
+Then edit the file to make the necessary changes, delete and re-create the pod.
+
+Use the kubectl edit pod <pod-name> command to edit pod properties.
